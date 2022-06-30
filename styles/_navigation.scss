@@ -1,0 +1,40 @@
+@use "variables";
+
+.navigation--container {
+  background-color: variables.$neutral-2-cl;
+  padding: 1.2rem 0;
+}
+
+.navigation--list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation--item {
+  margin-left: 2.2rem;
+}
+
+.navigation--link {
+  font-weight: variables.$ff-medium;
+  letter-spacing: 0.1px;
+  color: variables.$neutral-cl;
+}
+
+.contact--item {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    variables.$accent-cl,
+    variables.$accent-2-cl
+  );
+  padding: 1.4rem 2.8rem;
+  border-radius: 0.4rem;
+  margin-left: 3rem;
+  box-shadow: variables.$box-shadow-cl;
+}
+
+.contact--item > .navigation--link {
+  color: variables.$neutral-2-cl;
+}

@@ -1,0 +1,62 @@
+@use "variables";
+
+.header--container {
+  padding: 15rem 0;
+  background: linear-gradient(
+    45deg,
+    variables.$accent-cl,
+    variables.$accent-2-cl
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header--title {
+  font-size: 5.4rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  text-align: center;
+  color: variables.$neutral-2-cl;
+}
+
+.header--subtitle {
+  font-size: 2.2rem;
+  font-weight: variables.$ff-regular;
+  color: variables.$neutral-2-cl;
+  line-height: 1.6;
+  width: 40ch;
+  text-align: center;
+  margin: 0 auto 2.4rem auto;
+}
+
+.header--subtitle > span {
+  font-size: 3.2rem;
+  color: variables.$accent-4-cl;
+  font-style: italic;
+}
+
+.header--btn {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.4rem;
+  font-weight: variables.$ff-medium;
+  letter-spacing: 0.01px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: none;
+  border: 0.2rem solid variables.$accent-4-cl;
+  background-color: variables.$accent-4-cl;
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.19);
+  transition: transform 200ms ease-in-out, background 200ms ease-in-out,
+    border 200ms ease-in-out;
+}
+
+.header--btn:hover {
+  transform: translateY(-4px);
+  background-color: variables.$neutral-2-cl;
+  border: 0.2rem solid variables.$neutral-cl;
+}

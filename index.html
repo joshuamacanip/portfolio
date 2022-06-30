@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Joshua's Portfolio</title>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navigation--container">
+      <div class="container">
+        <ul class="navigation--list">
+          <li class="navigation--item">
+            <a href="#" class="navigation--link">Intro</a>
+          </li>
+
+          <li class="navigation--item">
+            <a href="#" class="navigation--link">About</a>
+          </li>
+
+          <li class="navigation--item">
+            <a href="#" class="navigation--link">Project</a>
+          </li>
+
+          <li class="navigation--item contact--item">
+            <a href="#" class="navigation--link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header class="header--container">
+      <div class="container">
+        <section class="header--content">
+          <h1 class="header--title">Hi, I'm Joshua Macanip!</h1>
+
+          <p class="header--subtitle">
+            A <span> Hobbyist Web Developer </span> who loves everything about
+            HTML, CSS, JavaScrpt
+          </p>
+
+          <button class="header--btn">Contact</button>
+        </section>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main class="main--container">
+      <div class="container">
+        <section class="main--content">
+          <!-- about section -->
+          <section class="about--container">
+            <h2 class="section--title">About</h2>
+
+            <!-- about content -->
+            <div class="about--content">
+              <div class="grid--cell">
+                <section>
+                  <figure class="avatar--container">
+                    <img
+                      src="./img/about-section.jpg"
+                      alt="Joshua's Portrait with his cousin"
+                    />
+                  </figure>
+                </section>
+              </div>
+
+              <div class="grid--cell">
+                <section>
+                  <article>
+                    <p class="about--paragraph">
+                      Hi, I'm a Hobbyist Web Developer with a solid
+                      understanding with the three core technology use in web
+                      development. As for now I'm focusing my time improving my
+                      current skillset and hopefully deliver a beautiful web
+                      application in the future.
+                    </p>
+                  </article>
+                </section>
+              </div>
+            </div>
+          </section>
+
+          <!-- tools section -->
+          <section class="tool--container">
+            <div class="tool--style">
+              <h2 class="section--title tool--title">My Tool box</h2>
+
+              <section class="tool--content">
+                <div class="tool">
+                  <i class="fa-brands fa-html5 fa-9x"></i>
+                </div>
+
+                <div class="tool">
+                  <i class="fa-brands fa-css3-alt fa-9x"></i>
+                </div>
+
+                <div class="tool">
+                  <i class="fa-brands fa-js fa-9x"></i>
+                </div>
+
+                <div class="tool">
+                  <i class="fa-brands fa-sass fa-9x"></i>
+                </div>
+
+                <div class="tool">
+                  <i class="fa-brands fa-react fa-9x"></i>
+                </div>
+
+                <div class="tool">
+                  <i class="fa-brands fa-node fa-9x"></i>
+                </div>
+
+                <div class="tool">
+                  <i class="fa-brands fa-bootstrap fa-9x"></i>
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <!-- project section -->
+          <section class="project--section">
+            <h2 class="section--title">Finished Project</h2>
+
+            <section class="project--content">
+              <div class="project--grid">
+                <div class="project--grid__child">
+                  <article class="project--card">
+                    <header class="project--header">
+                      <img src="./img/project-1.png" alt="project one" />
+
+                      <div class="hidden--section"></div>
+                    </header>
+
+                    <section class="project--body">
+                      <p>A website for aspiring web developer.</p>
+                    </section>
+                  </article>
+                </div>
+
+                <div class="project--grid__child">
+                  <article class="project--card">
+                    <header class="project--header">
+                      <img src="./img/project-2.png" alt="project one" />
+
+                      <div class="hidden--section"></div>
+                    </header>
+
+                    <section class="project--body">
+                      <p>CRUD Web Application created with HTML, CSS, JS</p>
+                    </section>
+                  </article>
+                </div>
+
+                <div class="project--grid__child">
+                  <article class="project--card">
+                    <header class="project--header">
+                      <img src="./img/project-3.png" alt="project one" />
+
+                      <div class="hidden--section"></div>
+                    </header>
+
+                    <section class="project--body">
+                      <p>
+                        A Full Stack application created on top of React, Redux,
+                        Express, and MongoDB
+                      </p>
+                    </section>
+                  </article>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <!-- contact section -->
+          <section class="contact--section">
+            <h2 class="section--title contact--title">Contact Me!</h2>
+
+            <section class="contact--content">
+              <form action="" class="form--control">
+                <fieldset>
+                  <label for="name">Name:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Name"
+                    required
+                  />
+                </fieldset>
+
+                <fieldset>
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </fieldset>
+
+                <fieldset>
+                  <label for="message">Message:</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="40"
+                    rows="10"
+                    placeholder="Message"
+                  ></textarea>
+                </fieldset>
+
+                <button class="form--btn">Submit</button>
+              </form>
+            </section>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer--container">
+      <div class="container">
+        <p>This is created by Joshua Macanip. 2022 &copy;</p>
+      </div>
+    </footer>
+  </body>
+</html>

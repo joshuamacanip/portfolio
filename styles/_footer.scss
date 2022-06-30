@@ -1,0 +1,13 @@
+@use "variables";
+
+.footer--container {
+  padding: 4rem 0;
+  background: linear-gradient(
+    45deg,
+    variables.$accent-cl,
+    variables.$accent-2-cl
+  );
+  color: #eee;
+  text-align: center;
+  font-weight: variables.$ff-light;
+}

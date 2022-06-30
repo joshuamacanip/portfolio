@@ -1,0 +1,35 @@
+@use "variables";
+
+.tool--container {
+  padding: 5rem 0;
+}
+
+.tool--title {
+  color: variables.$neutral-2-cl;
+}
+
+.tool--style {
+  background: linear-gradient(
+    45deg,
+    variables.$accent-cl,
+    variables.$accent-2-cl
+  );
+  padding: 1.8rem 1.8rem 2.4rem 1.8rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.19);
+}
+
+.tool--content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tool--content > * {
+  margin: 2.4rem 5rem;
+}
+
+.fa-brands {
+  color: #2b2b2b;
+}

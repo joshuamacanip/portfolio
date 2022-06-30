@@ -1,0 +1,36 @@
+@use "variables";
+
+.about--container {
+  padding: 10rem 0;
+}
+
+.about--content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.6rem;
+}
+
+.avatar--container {
+  width: 20rem;
+  height: 20rem;
+  border: 0.4rem solid variables.$accent-cl;
+  padding: 0.4rem;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.avatar--container > img {
+  border-radius: 100%;
+}
+
+.grid--cell:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about--paragraph {
+  line-height: 1.6;
+  font-size: 1.8rem;
+}
